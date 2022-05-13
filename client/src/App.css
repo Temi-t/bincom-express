@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.page {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+}
+.polling-container {
+  width: 30%;
+  height: 80vh;
+  border-right: 0.1rem solid rgba(58, 58, 58, 0.548);
+  overflow-y: scroll;
+}
+.header {
+  font-size: 1.5rem;
+  color: rgb(36, 36, 36);
+}
+.form {
+  min-height: 35rem;
+}
+.polling-card {
+  background-color: rgb(234, 210, 214);
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.171);
+  border-color: rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: 1rem 0;
+}
+.results-container {
+  width: 80%;
+  height: 80vh;
+  overflow-y: scroll;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: rgba(234, 210, 214, 0.3);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.list-container{
+  background: white;
+  padding: 20px;
+  border-radius: 7px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.list-container li {
+  list-style-type: none;
+  text-align: left;
+}
+.next-btn{
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.10);
+  width: 10%;
+  border: none;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: grey;
+}
+a:link{
+  text-decoration: none;
+}
+.next-container{
+  width: 100%;
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+}
+.lga-choice{
+  font-size: 25px;
+}
